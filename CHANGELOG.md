@@ -1,15 +1,15 @@
 # Fancy Git Changelog
 
-> Any trouble, please visit: https://github.com/diogocavilha/fancy-git#troubleshooting-pick
+&gt; Any trouble, please visit: https://github.com/diogocavilha/fancy-git#troubleshooting-pick
 
 ### v6.3.1
 
 - Add one more question to "gd" command.
-- Fix a minor bug when using MacOS. 
-- Add the `fancygit --enable-show-user-at-machine` command for making FancyGit to show the the (user@machine) prompt info.
-- Add the `fancygit --disable-show-user-at-machine` command for making FancyGit not to show the the (user@machine) prompt info.
-- Change the `fancygit --full-path-disable` command to `fancygit --disable-full-path` in orer to keep it organized.
-- Change the `fancygit --full-path-enable` command to `fancygit --enable-full-path` in orer to keep it organized.
+- Fix a minor bug when using MacOS.
+- Add the 'fancygit --enable-show-user-at-machine' command for making FancyGit to show the (user@machine) prompt info.
+- Add the 'fancygit --disable-show-user-at-machine' command for making FancyGit not to show the (user@machine) prompt info.
+- Change the 'fancygit --full-path-disable' command to 'fancygit --disable-full-path' in order to keep it organized.
+- Change the 'fancygit --full-path-enable' command to 'fancygit --enable-full-path' in oredr to keep it organized.
 - Add a new font called "Sauce-Code-Pro-Nerd-Font-Complete-Windows-Compatible.ttf" in order to keep compatibility.
 - Update virtualenv status icon.
 - Change stash status icon.
@@ -26,7 +26,7 @@
 ### v6.2.13
 
 - Update README.md.
-- Add `dark-col-double-line` on fancygit completion.
+- Add 'dark-col-double-line' on fancygit completion.
 
 ### v6.2.12
 
@@ -35,7 +35,7 @@
 ### v6.2.11
 
 - Evaluate remote of current branch instead of using hardcoded origin in themes.
-- Add `dark-col-double-line` style.
+- Add 'dark-col-double-line' style.
 
 ### v6.2.10
 
@@ -43,29 +43,27 @@
 
 ### v6.2.9
 
-- Add styling to git stash listing  for clarity
+- Add styling to git stash listing for clarity
 
 ### v6.2.8
 
 - Add configuration file for centralized updates.
 - Enable change of prompt style between short path and full path display.
 
-
 ### v6.2.7
 
-- Add `human-single-line` style.
-- Add `human-dark-single-line` style.
-- Fix some bugs with `grep` command when using MAC OS.
-- Change `gdb` alias to `ggdb` alias.
+- Add 'human-single-line' style.
+- Add 'human-dark-single-line' style.
+- Fix some bugs with 'grep' command when using MAC OS.
+- Change 'gdb' alias to 'ggdb' alias.
 
 ### v6.1.6
 
 - Improve the way fancygit looks for its configurations.
-- Add the `fancygit --config-list` command to show the current FancyGit configuration.
-- Add the `fancygit --config-reset` command to reset FancyGit configuration.
-- Add the `fancygit --full-path-enable` command for making FancyGit to show the full path of the working directory.
-- Add the `fancygit --full-path-disable` command for making FancyGit to show only working directory, not the full path.
-
+- Add the 'fancygit --config-list' command to show the current FancyGit configuration.
+- Add the 'fancygit --config-reset' command to reset FancyGit configuration.
+- Add the 'fancygit --full-path-enable' command for making FancyGit to show the full path of the working directory.
+- Add the 'fancygit --full-path-disable' command for making FancyGit to show only working directory, not the full path.
 
 ### v6.0.5
 
@@ -74,7 +72,7 @@
 ### v6.0.4
 
 - Fix installation command when git package is not installed yet.
-- Add the `pve` command to show the current Python virtual environment name.
+- Add the 'pve' command to show the current Python virtual environment name.
 
 ### v6.0.2
 
@@ -116,8 +114,8 @@
 
 ### v5.2.4
 
-- Add command `fancygit --colors` to show the colors configuration.
-- Add command `fancygit --colors-set` to apply colors configuration.
+- Add command 'fancygit --colors' to show the colors configuration.
+- Add command 'fancygit --colors-set' to apply colors configuration.
 
 ### v5.2.3
 
@@ -146,8 +144,8 @@
 
 - Add new light style.
 - Improve the space after the user symbol when in double line style.
-- Add command `gap`. (Please read the help --> `fancygit help | grep gap`).
-- Add command `gu`. (Please read the help --> `fancygit help | grep 'gu '`).
+- Add command 'gap'. (Please read the help --&gt; 'fancygit help | grep gap').
+- Add command 'gu'. (Please read the help --&gt; 'fancygit help | grep 'gu '').
 
 ### v5.0.8
 
@@ -170,10 +168,10 @@
 
 ### v5.0.4
 
-- Improve `gplo` command.
+- Improve 'gplo' command.
 - Add funny string information after pulling, which is: "Start to pray.".
 - Sort the changelog by version from the newer to the older.
-- Improve directory verification. It goes for `/Users` when `/home` does't exist.
+- Improve directory verification. It goes for '/Users' when '/home' does't exist.
 
 ### v5.0.3
 
@@ -197,20 +195,20 @@
 
 ### v4.0.6
 
-- Add `double-line` mode.
+- Add 'double-line' mode.
 
 ### v4.0.5
 
-- Add `gg` alias to do all the tipical sequence until push.
+- Add 'gg' alias to do all the typical sequence until push.
 
 ### v4.0.4
 
-- Add six new aliases to use `git stash` command.
+- Add six new aliases to use 'git stash' command.
 
 ### v4.0.3
 
-- Improve `gd` alias. If you run it for a specific file, it'll suggest you to add it in order to commit.
-- Improve `glp` alias. Remove its nested filters. It can handle parameters now.
+- Improve 'gd' alias. If you run it for a specific file, it'll suggest you to add it in order to commit.
+- Improve 'glp' alias. Remove its nested filters. It can handle parameters now.
 
 ### v4.0.2
 
