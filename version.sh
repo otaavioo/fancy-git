@@ -1,10 +1,6 @@
 #!/bin/bash
 #
 # Author: Diogo Alexsander Cavilha <diogocavilha@gmail.com>
-# Date:   03.04.2016
-#
-# git remote -v
+# Date:   11.17.2017
 
-echo ""
-git remote -v
-echo ""
+FANCYGIT_VERSION="6.3.1"

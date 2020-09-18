@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 # Author: Diogo Alexsander Cavilha <diogocavilha@gmail.com>
-# Date:   03.04.2016
+# Date:   03.13.2017
 #
-# git remote -v
+# git add
 
-echo ""
-git remote -v
-echo ""
+git add $* && \
+clear && \
+git status
